@@ -1,0 +1,50 @@
+/* Container principal */
+.slide-container {
+  width: 350px;
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  transition: transform 0.3s ease;
+}
+
+/* Efect hover card */
+.slide-container:hover {
+  transform: translateY(-5px);
+}
+
+/* Zona imagine */
+.slide-image {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+/* Imaginea */
+.slide-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Zona opțiuni */
+.slide-options {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #eee;
+}
+
+.slide-options img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  display: block;
+}
